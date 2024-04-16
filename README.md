@@ -13,3 +13,4 @@ El objetivo de este proyecto es hacer un juego ASCII art basado en el famoso jue
 - include/ - Los archivos de cabecera
 - assets/ - contiene los recursos del proyecto
 - docs/ - Contiene la documentación del proyecto
+
