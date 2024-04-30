@@ -6,16 +6,16 @@
 #include<ftxui/screen/string.hpp>
 #include<ftxui/screen/terminal.hpp>
 #include <fstream>
-#include <Dibujo.hpp>
+#include <Archivo.hpp>
 
 using namespace std;
 using namespace ftxui;
 
 int main(int argc, char const *argv[])
 {
-    Dibujo dtanque("./assets/images/canon.txt");
-    Dibujo dalien("./assets/images/alien.txt");
-    Dibujo dbloque("./assets/images/canon.txt");
+    Archivo dtanque("./assets/images/canon.txt");
+    Archivo dalien("./assets/images/alien.txt");
+    Archivo dbloque("./assets/images/canon.txt");
 
     int fotograma = 0;
     while(true)
